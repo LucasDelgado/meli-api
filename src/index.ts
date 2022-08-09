@@ -3,7 +3,7 @@ import routerApi from './server/router';
 import cors from 'cors';
 import MiddleWaresError from './middlewares/error.handler';
 const app: Express = express();
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.use(express.json());
 
