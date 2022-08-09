@@ -22,7 +22,7 @@ Una aplicación creada con Create-react-app con Typescript.
 
 Algunos puntos a tener en cuenta.
 
--   Uno de los requerimientos a tener en cuenta era el **SEO**. Se aplicó head custom con **Helmet, HTML5 semántico** para también sumar valor a la usabilidad. Y uno de los puntos fuertes en cuestión del SEO orgánico es el SSR (server side render).
+-   Uno de los requerimientos a tener en cuenta era el **SEO**. Se aplicó head custom con **Helmet, HTML5 semántico** para también sumar valor a la usabilidad, **shemas** al producto. Y uno de los puntos fuertes en cuestión del SEO orgánico es el SSR (server side render).
     Al ser una app SPA, renderiza todo del lado del cliente el cual puede afectar el SEO. Google nos dice que esto no suele ser así ya que sus robots indexan contenido creado por JS, pero otros buscadores pueden tener problemas.
     Entonces realizar un SSR manualmente lleva un tiempo considerable para desarrollarlo en un challenge. Hay una solución rápida. Y es utilizar **NEXT.JS** (lo amo) Que nos provee herramientas geniales para solucionar este problema y muchos otros.
     Si bien encajaba perfectamente con todos los requerimientos, me pareció mucho más desafiante tratar de NO utilizar nada de esos frameworks, que nos soluciona temas como el RUTEO y muchas más, ya que el objetivo del proyecto es demostrar los skills.
